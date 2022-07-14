@@ -3,11 +3,15 @@ console.log("123");
 module.exports = {
   lint: async function () {
     const { ESLint } = require("eslint");
+    const pluginPure = require("eslint-plugin-pure");
     const config = require("./.eslintrc.js");
     (async function main() {
       // 1. Create an instance.
       const eslint = new ESLint({
         baseConfig: config,
+        plugins: {
+            "pure": pluginPure
+        }
       });
 
       // 2. Lint files.
