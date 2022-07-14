@@ -1,0 +1,15 @@
+{
+  "name": "fragment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node -e 'const garn = require(`garn`);garn.lint()'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "garn": "file:../garn"
+  }
+}
