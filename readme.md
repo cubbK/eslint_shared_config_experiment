@@ -2,9 +2,9 @@ An experiment where there can be one shared "eslint package" that can be used by
 
 How it works:
 - `fragment` installs `garn` as a dependency
-- garn has eslint and eslintrc configuration
+- garn has eslint and eslintrc configurated
 - in fragment we call the garn eslint with the current cwd. 
-- Eslint is run from `garn/node_modules` but is checking files in `fragment/`
+- Eslint is ran from `garn/node_modules` but is checking files in `fragment/`
 
 Quick start:
 - `npm ci` in every folder
