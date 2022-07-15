@@ -1,6 +1,6 @@
 {
   "name": "garn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.19.0",
     "eslint-plugin-pure": "github:purely-functional/eslint-plugin-pure"
   }

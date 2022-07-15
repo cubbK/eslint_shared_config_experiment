@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "garn": "1.0.0"
+    "garn": "1.0.1"
   }
 }
